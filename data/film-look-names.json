@@ -1,0 +1,226 @@
+{
+  "project": "Super-Magic-Lantern",
+  "purpose": "Names and inspiration for film-look profiles; NOT functioning Canon 5D Classic presets",
+  "source": {
+    "title": "Top 26 Most Popular Fujifilm Recipes of 2026 So Far (Summer Edition)",
+    "author": "Ritchie Roesch",
+    "publisher": "Fuji X Weekly",
+    "published": "2026-08-03",
+    "ranking_window": "2026-01-01 through 2026-07-31",
+    "method": "Fuji X Weekly recipe article page views, not measured camera use"
+  },
+  "implementation_notes": [
+    "The display_name fields reproduce the article headings. Preserve capitalization, apostrophes, and version suffixes.",
+    "Unique IDs distinguish same-named Fujifilm X-Trans-generation entries; generation labels describe original Fuji compatibility only.",
+    "Universal Negative and 14 Film Dial Recipes are collections of fourteen recipes each, not standalone parameter sets.",
+    "The attached article does NOT provide recipe settings. Do not synthesize precise settings or claim that any look reproduces Fujifilm JPEG output.",
+    "The Canon 5D Classic and Fujifilm X-Trans cameras have different imaging pipelines; any approximation must be independently implemented and visually validated.",
+    "Names are third-party references, not an endorsement or affiliation by Kodak, Fujifilm, CineStill, Fuji X Weekly, or creators."
+  ],
+  "looks": [
+    {
+      "rank": 1,
+      "display_name": "Reggie’s Portra",
+      "id": "reggies-portra",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans IV and V",
+      "original_fuji_base_simulation": "Classic Chrome"
+    },
+    {
+      "rank": 2,
+      "display_name": "Kodachrome 64",
+      "id": "kodachrome-64-xtrans-iv",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans IV",
+      "original_fuji_base_simulation": "Classic Chrome"
+    },
+    {
+      "rank": 3,
+      "display_name": "Kodak Gold 200",
+      "id": "kodak-gold-200-xtrans-v",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans V",
+      "original_fuji_base_simulation": "Classic Chrome"
+    },
+    {
+      "rank": 4,
+      "display_name": "Vibrant Arizona",
+      "id": "vibrant-arizona",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans IV and V",
+      "original_fuji_base_simulation": "Classic Chrome"
+    },
+    {
+      "rank": 5,
+      "display_name": "Kodachrome 64",
+      "id": "kodachrome-64-xtrans-v",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans V"
+    },
+    {
+      "rank": 6,
+      "display_name": "Kodak Portra 400 v2",
+      "id": "kodak-portra-400-v2-xtrans-v",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans V",
+      "original_fuji_base_simulation": "Classic Chrome"
+    },
+    {
+      "rank": 7,
+      "display_name": "Kodak Tri-X 400",
+      "id": "kodak-tri-x-400",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans III, IV, and V",
+      "original_fuji_base_simulation": "Acros"
+    },
+    {
+      "rank": 8,
+      "display_name": "Universal Negative",
+      "id": "universal-negative",
+      "kind": "collection of 14 recipes",
+      "original_fuji_compatibility": "X-Trans V"
+    },
+    {
+      "rank": 9,
+      "display_name": "CineStill 800T",
+      "id": "cinestill-800t",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans V",
+      "original_fuji_base_simulation": "Eterna"
+    },
+    {
+      "rank": 10,
+      "display_name": "Pacific Blues",
+      "id": "pacific-blues-xtrans-v",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans V",
+      "original_fuji_base_simulation": "Classic Negative"
+    },
+    {
+      "rank": 11,
+      "display_name": "Fujifilm Negative",
+      "id": "fujifilm-negative",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans V",
+      "original_fuji_base_simulation": "Reala Ace"
+    },
+    {
+      "rank": 12,
+      "display_name": "Kodak Portra 800 v3",
+      "id": "kodak-portra-800-v3",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans IV and V",
+      "original_fuji_base_simulation": "Classic Chrome"
+    },
+    {
+      "rank": 13,
+      "display_name": "Pacific Blues",
+      "id": "pacific-blues-xtrans-iv",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans IV"
+    },
+    {
+      "rank": 14,
+      "display_name": "Reggie’s Superia",
+      "id": "reggies-superia",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans IV and V",
+      "original_fuji_base_simulation": "Classic Negative"
+    },
+    {
+      "rank": 15,
+      "display_name": "Kodak Portra 400 v2",
+      "id": "kodak-portra-400-v2-xtrans-iv",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans IV",
+      "original_fuji_base_simulation": "Classic Chrome"
+    },
+    {
+      "rank": 16,
+      "display_name": "California Summer",
+      "id": "california-summer",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans V",
+      "original_fuji_base_simulation": "Nostalgic Neg."
+    },
+    {
+      "rank": 17,
+      "display_name": "14 Film Dial Recipes",
+      "id": "14-film-dial-recipes",
+      "kind": "collection of 14 recipes",
+      "original_fuji_compatibility": "X-Trans V cameras with a Film Dial"
+    },
+    {
+      "rank": 18,
+      "display_name": "Kodak Portra 400",
+      "id": "kodak-portra-400",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans IV (can also be used on V)",
+      "original_fuji_base_simulation": "Classic Chrome"
+    },
+    {
+      "rank": 19,
+      "display_name": "Reala Ace",
+      "id": "reala-ace",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans V",
+      "original_fuji_base_simulation": "Classic Negative"
+    },
+    {
+      "rank": 20,
+      "display_name": "Easy Reala Ace",
+      "id": "easy-reala-ace",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans V",
+      "original_fuji_base_simulation": "Reala Ace"
+    },
+    {
+      "rank": 21,
+      "display_name": "Kodak Gold 200",
+      "id": "kodak-gold-200-xtrans-iii",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans III, X-T3, and X-T30",
+      "original_fuji_base_simulation": "Classic Chrome"
+    },
+    {
+      "rank": 22,
+      "display_name": "PRO Negative 160C",
+      "id": "pro-negative-160c",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans V",
+      "original_fuji_base_simulation": "Reala Ace"
+    },
+    {
+      "rank": 23,
+      "display_name": "1976 Kodak",
+      "id": "1976-kodak",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans V",
+      "original_fuji_base_simulation": "Nostalgic Neg."
+    },
+    {
+      "rank": 24,
+      "display_name": "Vintage Kodachrome",
+      "id": "vintage-kodachrome",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans III",
+      "original_fuji_base_simulation": "Classic Chrome"
+    },
+    {
+      "rank": 25,
+      "display_name": "Fujicolor Super HG v2",
+      "id": "fujicolor-super-hg-v2",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans V",
+      "original_fuji_base_simulation": "Classic Negative"
+    },
+    {
+      "rank": 26,
+      "display_name": "McCurry Kodachrome",
+      "id": "mccurry-kodachrome",
+      "kind": "recipe",
+      "original_fuji_compatibility": "X-Trans IV",
+      "original_fuji_base_simulation": "Classic Chrome"
+    }
+  ]
+}
